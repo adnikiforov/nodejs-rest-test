@@ -1,0 +1,16 @@
+{
+    "name": "module-name",
+    "version": "10.3.1",
+    "description": "Test REST API application",
+    "author": "Andrey Nikiforov <a.d.nikiforov@gmail.com>",
+    "scripts": {
+        "test": "jasmine-node ./spec",
+        "start": "node server.js"
+    },
+    "main": "server.js",
+    "dependencies": {
+        "frisby": "*",
+        "jasmine-node": "*"
+    },
+    "license": "MIT"
+}
